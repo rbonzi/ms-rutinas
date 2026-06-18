@@ -11,9 +11,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenApi(){
         return new OpenAPI()
                 .info(new Info()
-                        .title("Gestión de entrenadores")
+                        .title("Gestión de rutinas")
                         .version("1.0")
-                        .description("Documentación para el microservicios de gestión de entrenadores"));
+                        .description("Documentación para el microservicios de gestión de rutinas"));
 
     }
 }
